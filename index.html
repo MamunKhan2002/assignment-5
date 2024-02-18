@@ -14,29 +14,38 @@
 
 <body>
     <!-- Header Section -->
-    <header class="w-11/12 mx-auto ">
-        <div class="flex justify-between items-center md:mx-[80px] lg:mx-[133px] mt-[48px]">
-            <h1 class="text-3xl md:text-4xl lg:text-4xl font-extrabold text-[#030712]">P-Ticket</h1>
-            <nav>
+    <header class="mt-[48px]">
+        <div class="max-w-[1173px] mx-auto w-11/12">
+            <nav class="flex justify-between items-center">
+                <h1 class="text-3xl md:text-4xl lg:text-4xl font-extrabold text-[#030712]">P-Ticket</h1>
+
                 <ul class="hidden lg:flex gap-14 text-[#030712B3] text-base font-medium">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Destination</a></li>
                     <li><a href="#">Search</a></li>
                 </ul>
+
+                <button
+                    class="flex gap-1 items-center px-6 py-2 md:px-8 md:py-4 lg:px-8 lg:py-4 bg-[#1DD1001A] border-2 border-solid border-[#1DD100] rounded-xl text-xl font-bold text-[#1DD100]">Bus
+                    <span><img src="./images/bus-icon.png" alt=""></span></button>
             </nav>
-            <button
-                class="flex gap-1 items-center px-6 py-2 md:px-8 md:py-4 lg:px-8 lg:py-4 bg-[#1DD1001A] border-2 border-solid border-[#1DD100] rounded-xl text-xl font-bold text-[#1DD100]">Bus
-                <span><img src="./images/bus-icon.png" alt=""></span></button>
+            <div
+                class="mt-8 bg-[url('/images/banner.png')] bg-cover bg-center bg-no-repeat pt-[100px] pb-[170px] text-center">
+                <h1 class="text-6xl text-white font-extrabold ">End-to-End Travel with <br> <span
+                        class="text-[#1DD100]">P
+                        Paribahan</span></h1>
+                <p class="text-base font-normal text-[white] max-w-[691px] mx-auto mt-4 mb-8">Yes, you can run unit
+                    tests
+                    and view the results directly within the app.
+                    The integrated testing features allow for a streamlined .</p>
+                <button class="px-8 py-5 bg-[#1DD100] font-raleway text-xl text-[#030712] font-bold rounded-xl">Buy
+                    Ticket</button>
+            </div>
+
         </div>
         <!-- Banner section start  -->
-        <div class="mt-8 bg-url('./images/banner.png')">
-            <h1 class="text-6xl text-white font-extrabold ">End-to-End Travel with <br> <span class="text-[#1DD100]">P
-                    Paribahan</span></h1>
-            <p class="text-base font-normal">Yes, you can run unit tests and view the results directly within the app.
-                The integrated testing features allow for a streamlined .</p>
-            <button>Buy Ticket</button>
-        </div>
+
     </header>
     <!-- Main section -->
     <main>
